@@ -7,5 +7,7 @@ RUN apk add --no-cache libzip-dev curl-dev icu-dev && docker-php-ext-install pdo
 COPY --from=vendor /app/vendor /var/www/html/vendor
 WORKDIR /var/www/html
 COPY . .
-RUN chown -R www-data:www-data storage bootstrap/cache
+RUN mkdir -p storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
+    && chown -R www-data:www-data storage bootstrap/cache \
+    && chmod -R ug+rwX storage bootstrap/cache
 EXPOSE 8000
