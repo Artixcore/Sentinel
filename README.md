@@ -12,7 +12,7 @@ Sentinel is an AI-ready operations platform for monitoring websites, servers, ag
 
 ## Milestone 1
 
-This first development milestone provides the production-oriented monorepo foundation, normalized monitoring schema, authenticated API surface, asynchronous website checking, broken-link scan jobs, overview aggregation, a connected dashboard, Docker services, and CI.
+This first development milestone provides the production-oriented monorepo foundation, normalized monitoring schema, token-protected metric ingestion, asynchronous website checking, overview aggregation, a connected dashboard, Docker services, and CI. Broken-link crawling and full user authentication are scheduled for the next milestone.
 
 ## Start locally
 
