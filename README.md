@@ -33,3 +33,7 @@ Browser -> Next.js -> Laravel API -> MySQL
 ```
 
 Never commit production credentials. Agent and collector tokens must be encrypted and injected at runtime.
+
+## AWS Lightsail production
+
+Production uses `docker-compose.prod.yml`, exposes the web and API containers only on loopback, and puts host Nginx in front for TLS termination. Copy `.env.production.example` to `.env`, replace every placeholder, install `deploy/nginx/sentinel.conf`, and use `deploy/update.sh` for repeatable releases. MySQL and Redis are not published to the internet.

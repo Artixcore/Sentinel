@@ -7,3 +7,5 @@ storage/logs/*.log
 bootstrap/cache/*.php
 coverage/
 .DS_Store
+*.pem
+deploy/backups/
