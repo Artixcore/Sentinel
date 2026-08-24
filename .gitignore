@@ -1,0 +1,9 @@
+.env
+vendor/
+node_modules/
+.next/
+storage/*.key
+storage/logs/*.log
+bootstrap/cache/*.php
+coverage/
+.DS_Store
