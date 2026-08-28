@@ -9,6 +9,7 @@ Sentinel is an AI-ready operations platform for monitoring websites, servers, ag
 - MySQL 8.4 metrics store
 - Redis 7 cache, queues, rate limits, and realtime event transport
 - Docker Compose local environment
+<img width="905" height="442" alt="image" src="https://github.com/user-attachments/assets/fcb3c625-2b2e-4fb3-b761-b7d8fffa0778" />
 
 ## Milestone 1
 
